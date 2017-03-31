@@ -1,18 +1,18 @@
 # Advanced-Web-Design-Contest-Spring-2017
 
-===================================
-Jackson's Charity Basketball League
-===================================
+
+# Jackson's Charity Basketball League
+
 
   JCBL began in the summer of 2015 at Westwood Recreational Center when the city of Jackson wanted to have more of an incentive for the
   community to do more charitable work. The JCBL has accomplished a lot since it was created, and has raised a great deal of money that
   has been put toward many charity organizations. The JCBL's goal is to encourage as much participation to help the community as they
   possibly can. This website was created prior to the third season of the league, and we hope to enjoy many more seasons of giving back
   to our society.
-  
-============
-Our Website
-============
+
+
+# Our Website
+
 
   This website was created by Brandon Mingledorff and Gabriel Storm because the JCBL did not have one previously. Our goal was to direct
   more attention towards the league, to create an easier way for people to join, and to raise awareness for the charities that we
