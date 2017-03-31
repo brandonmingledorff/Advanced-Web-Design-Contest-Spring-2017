@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SLIDESHOW SETUP -->
+  
+  <style>
+  * {box-sizing:border-box}
+body {margin:0}
+.slides {display:none}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  z-index: 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 12px;
+  margin-top: -24px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(129, 23, 23, 0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #811717;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  
+  </style>
+  
+  <title>JCBL | About</title>
+	<link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+    <!-- Main Menu Bar -->
+  
+	<header class="main-header">
+		<div class="container clearfix">
+			<h1 class="name"><a href="index.html">JCBL Home</a></h1>
+			<ul class="main-nav">
+				<li><a href="about.html" class="activep">About</a></li>
+				<li><a href="boardinfo.html">Board Info</a></li>
+				<li><a href="charities.html">Charities</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="extrainfo.html">Extra Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</header>   
+
+	<div class="banner">
+		<img class="logo" src="img/logo.png" alt="City">
+		<h1 class="headline">Jackson's Charity Basketball League</h1>
+		<span class="tagline">About</span>
+	</div>
+
+	<div class="container clearfix">
+		
+    	<div class="secondary colabout">
+			<h2>About Us</h2>
+			<p>JCBL is a charity basketball league for everyone 18 years old or older. </p>
+			<p>We want to provide our players with an active and communal experience every time they step onto the court. Our goal is to create awareness and contribute to local and widespread charities, funds, or causes, while making great friends along the way. Rather than focusing on profits, we run our league in a way that maximizes the general well-being of its players and its sociable and charitable significance to those players. </p>
+		</div><!--/.secondary column-->
+    
+    
+    <div class="slideshow-container">
+  <div class="slides fade">
+    <img src="img/bball1.JPG" style="width:100%">
+  </div>
+
+  <div class="slides fade">
+    <img src="img/bball2.JPG" style="width:100%">
+  </div>
+
+  <div class="slides fade">
+    <img src="img/bball3.JPG" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#8637;</a>
+  <a class="next" onclick="plusSlides(1)">&#8640;</a>
+</div>
+    
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+      
+    <script type="text/javascript" src="js/slideshow.js"></script>
+    
+    <div class="primary colabout">
+      
+      <h2>Our Vision</h2>
+      <p>Our vision is simple: to make the world a better place with one little act of kindness at a time. We express the importance of these acts to our players and coaches in hopes that they will spread these ideas even further. We believe in uniting people of all races, religions, and genders, and that a great way to do that is to find something that you all love and do it together - in this case, we unite through basketball.</p>
+			<p>We are looking for players and coaches who love basketball and have great sportsmanship. After all, no matter the outcome of the game, it's all going towards a great cause.</p>
+      <p>Every team plays for a specific charity or fund of its choice. It does not, however, have to be the same charity for every game. Many teams pick a different one every time they play! The team's choice must be approved by the <a href="boardinfo.html">Board</a> prior to game time. For more information on this or anything else, visit the <a href="faqs.html">FAQs page</a> or <a href="contact.html">contact us</a>.</p>
+		</div><!--/.primary column-->
+		</div>
+<div class="fix">
+	<footer class="main-footer">
+    <div class="container clearfix">
+      
+      <!-- Footer -->
+      
+			<ul class="footernav">
+        <li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="boardinfo.html">Board Info</a></li>
+				<li><a href="charities.html">Charities</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="extrainfo.html">Extra Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<span class="phone"><a href="tel:731-394-2056">731-394-2056</a></span>
+		<span class="copy">&copy;2017 Jackson's Charity Basketball League</span>
+    <span class="email"><a href="mailto:jcharitybasketball@gmail.com">jcharitybasketball@gmail.com</a></span>
+	</footer>
+  </div>
+</body>
+</html>
